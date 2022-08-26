@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+ int main(){
+ 	int a;
+ 	cout<<"enter the value of a"<<endl;
+ 	cin>>a;
+ 	if(a>18){
+ 		cout<<"you are adult"<<endl;
+	 }
+	 else if(a>14){
+	 	cout<<"you are not adult"<<endl;
+	 }
+	 else if(a<14){
+	 	cout<<"you are kid"<<endl;
+	 }
+	 
+ }
